@@ -1,8 +1,8 @@
 const path = require("path");
 
-function getHome (req,res){
-let pathHome = path.join(__dirname, "../../public/index.html");
-res.sendFile(pathHome);
+function getIndex (req,res){
+let pathIndex = path.join(__dirname, "../../public/index.html");
+res.sendFile(patIndex);
 }
 
 module.exports ={
